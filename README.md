@@ -25,9 +25,7 @@ Hi, I'm Akash - Python Developer & Data Analyst from India. This is my Flask-bas
 | **Sales Dashboard** | SQL, Python | ₹23.5Cr revenue analysis using complex queries |
 | **E-commerce SQL Dashboard** | SQL, JOIN, GROUP BY | Customer & order analytics with 5+ tables |
 | **Weather Dashboard** | Flask, API Integration | Real-time weather with OpenWeather API |
-| **Kids Educational App** | Flutter, Dart | Teaches alphabets & numbers with sound - Samsung Store |
-| **+ 3 More Projects** | ML, Web Scraping | Check GitHub for all projects |
-
+| **+ 4 More Projects** | ML, Flutter, Web Scraping | Check GitHub for Streamlit apps, Mobile apps & more |
 ### 🚀 Run Locally
 ```bash
 # Clone the repo
