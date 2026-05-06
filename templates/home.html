@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash | Python Developer & Data Analyst</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #0A0E14;
+            color: #e0e0e0;
+            line-height: 1.7;
+        }
+        nav { 
+            position: fixed; top: 0; width: 100%; 
+            background: rgba(10,14,20,0.97); padding: 20px 0; 
+            z-index: 1000; border-bottom: 1px solid #00FFAA; 
+        }
+        nav ul { display: flex; justify-content: center; list-style: none; gap: 40px; }
+        nav ul li a { color: #00FFAA; text-decoration: none; font-weight: 600; }
+
+        section { padding: 120px 10%; }
+        .hero { text-align: center; padding-top: 180px; min-height: 100vh; }
+        h1 { font-size: 4rem; background: linear-gradient(90deg, #00FFAA, #00CC88); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        h2 { color: #00CC88; font-size: 1.9rem; }
+
+        .btn {
+            padding: 15px 45px;
+            background: #00FFAA;
+            color: black;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            margin: 15px;
+            transition: 0.4s;
+        }
+        .btn:hover { transform: scale(1.08); }
+
+        .section-title { 
+            text-align: center; font-size: 2.8rem; 
+            color: #00FFAA; margin-bottom: 70px; 
+        }
+        .project-card, .about-card {
+            background: #161B24;
+            padding: 28px;
+            border-radius: 20px;
+            border: 1px solid #00FFAA22;
+            transition: all 0.4s;
+        }
+        .project-card:hover { 
+            transform: translateY(-12px); 
+            border-color: #00FFAA; 
+        }
+        .tech-stack { margin-top: 15px; color: #00CC88; font-size: 0.95rem; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <h1>Hi, I'm Akash 👋</h1>
+        <h2>Python Developer & Data Analyst</h2>
+        <p style="font-size:1.45rem; max-width:850px; margin:35px auto;">
+            Building data-driven web applications and turning raw data into actionable insights.
+        </p>
+        <div>
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="#contact" class="btn" style="background:transparent; border:2px solid #00FFAA; color:#00FFAA;">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" style="background:#11171F;">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-card" style="max-width:850px; margin:auto; text-align:center;">
+            <p style="font-size:1.25rem;">
+                Passionate <strong>Python Developer & Data Analyst</strong> from India.<br><br>
+                Currently pursuing Data Analytics course along with hands-on development. 
+                I have built 9+ production-level projects using Python, Streamlit, Flask, Pandas, and SQL.
+            </p>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(360px,1fr)); gap:25px;">
+            <div class="project-card">
+                <h3>💰 Finance Intelligence Dashboard</h3>
+                <p>Live Stock Market + Portfolio Tracker with real-time analytics</p>
+                <div class="tech-stack">Streamlit • yfinance • Plotly • Pandas</div>
+            </div>
+            <div class="project-card">
+                <h3>🏏 IPL Analytics Dashboard</h3>
+                <p>Complete tournament and player performance analysis</p>
+                <div class="tech-stack">Streamlit • Pandas • Data Visualization</div>
+            </div>
+            <div class="project-card">
+                <h3>📊 Netflix Content Analytics</h3>
+                <p>Interactive dashboard for content insights and trends</p>
+                <div class="tech-stack">Streamlit • Pandas • Seaborn</div>
+            </div>
+            <div class="project-card">
+                <h3>📈 Stock Market Technical Analyzer</h3>
+                <p>RSI, MACD, Moving Averages based analysis tool</p>
+                <div class="tech-stack">Python • yfinance • TA-Lib</div>
+            </div>
+            <div class="project-card">
+                <h3>💵 Personal Finance Tracker</h3>
+                <p>Income, Expense tracking & Budget Management System</p>
+                <div class="tech-stack">Flask / Streamlit • Pandas</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" style="background:#11171F;">
+        <h2 class="section-title">Skills & Tools</h2>
+        <div style="display:flex; flex-wrap:wrap; gap:12px; justify-content:center;">
+            <span class="project-card" style="padding:12px 22px;">Python</span>
+            <span class="project-card" style="padding:12px 22px;">Pandas</span>
+            <span class="project-card" style="padding:12px 22px;">NumPy</span>
+            <span class="project-card" style="padding:12px 22px;">Streamlit</span>
+            <span class="project-card" style="padding:12px 22px;">Flask</span>
+            <span class="project-card" style="padding:12px 22px;">SQL</span>
+            <span class="project-card" style="padding:12px 22px;">Power BI / Tableau</span>
+            <span class="project-card" style="padding:12px 22px;">Data Visualization</span>
+            <span class="project-card" style="padding:12px 22px;">Git & GitHub</span>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" style="text-align:center;">
+        <h2 class="section-title">Get In Touch</h2>
+        <p style="font-size:1.4rem; margin:20px 0;">as6709377@gmail.com</p>
+        <p style="font-size:1.5rem; margin:30px 0;">
+            <a href="https://github.com/akash1234-design" target="_blank" style="color:#00FFAA;">GitHub</a> |
+            LinkedIn
+        </p>
+        <p style="color:#777; margin-top:50px;">Open to Data Analyst / Python Developer opportunities</p>
+    </section>
+
+</body>
+</html>
