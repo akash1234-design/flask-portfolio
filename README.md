@@ -7,9 +7,9 @@ Hi, I'm Akash - Python Developer & Data Analyst from India. This is my Flask-bas
 > Note: Free tier pe hai toh pehli baar 30-50 sec lag sakte hain load hone mein
 
 ### 📸 Preview
-![Home Page](screenshots home.png)
-![About Section](screenshots about.png)
-![Featured Projects](screenshots projects.png)
+![Home Page](Screenshots home.png)
+![About Section](Screenshots about.png)
+![Featured Projects](Screenshots projects.png)
 
 ### 🛠️ Tech Stack
 - **Backend**: Python, Flask, Gunicorn
