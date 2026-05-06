@@ -3,13 +3,13 @@
 Hi, I'm Akash - Python Developer & Data Analyst from India. This is my Flask-based portfolio showcasing 9+ production-level projects in Data Analytics, Machine Learning & Web Development.
 
 ### 🌐 Live Website
-**[file:///D:/flask_portfolio/Templates/home.html#contact)** 
+**[https://akash-portfolio.onrender.com](https://akash-portfolio.onrender.com)**
 > Note: Free tier pe hai toh pehli baar 30-50 sec lag sakte hain load hone mein
 
 ### 📸 Preview
-(Screenshots home.png)
-(Screenshots about.png)
-(Screenshots projects.png)
+![Home Page](Screenshots%20home.png)
+![About Section](Screenshots%20about.png)
+![Featured Projects](screenshots%20projects.png)
 
 ### 🛠️ Tech Stack
 - **Backend**: Python, Flask, Gunicorn
@@ -25,7 +25,7 @@ Hi, I'm Akash - Python Developer & Data Analyst from India. This is my Flask-bas
 | **Sales Dashboard** | SQL, Python | ₹23.5Cr revenue analysis using complex queries |
 | **E-commerce SQL Dashboard** | SQL, JOIN, GROUP BY | Customer & order analytics with 5+ tables |
 | **Weather Dashboard** | Flask, API Integration | Real-time weather with OpenWeather API |
-| **Kids Educational App** | Flutter, Dart | Teaches alphabets & numbers with sound - Built for Samsung Store |
+| **Kids Educational App** | Flutter, Dart | Teaches alphabets & numbers with sound - Samsung Store |
 | **+ 3 More Projects** | ML, Web Scraping | Check GitHub for all projects |
 
 ### 🚀 Run Locally
