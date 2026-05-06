@@ -3,7 +3,7 @@
 Hi, I'm Akash - Python Developer & Data Analyst from India. This is my Flask-based portfolio showcasing 9+ production-level projects in Data Analytics, Machine Learning & Web Development.
 
 ### 🌐 Live Website
-**[https://akash-portfolio.onrender.com](https://akash-portfolio.onrender.com)**
+**[https://akash-portfolio-u6iw.onrender.com/#home)**
 > Note: Free tier pe hai toh pehli baar 30-50 sec lag sakte hain load hone mein
 
 ### 📸 Preview
